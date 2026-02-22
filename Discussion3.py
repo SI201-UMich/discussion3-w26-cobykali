@@ -4,7 +4,9 @@ class Rectangle():
     # Create the constructor "__init__" method
 
     # YOUR CODE HERE
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 
     # Create the "__str__" method
@@ -23,13 +25,11 @@ class Rectangle():
     # 
     # Returns a boolean value
 
-    # YOUR CODE HERE
+    # YOUR CODE HERE  
 
 
-    
 
-
-def main():
+def main(): 
     r1 = Rectangle(10, 10)
     # call the __str__ method
     print(r1)
